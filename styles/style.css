@@ -136,6 +136,8 @@ nav input[type="text"] {
   cursor: pointer;
   color: #fff;
   background-color: #ccc;
+  width: 100%;
+  height: 100%;
 }
 
 .art1:hover {
