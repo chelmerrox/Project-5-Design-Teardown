@@ -15,8 +15,8 @@ html {
 }
 
 header {
-  border: 1px solid green;
   background-color: grey;
+  border: 1px solid green;
 }
 
 nav ul {
@@ -52,75 +52,133 @@ nav input[type="text"] {
 
 /* Styles for Grid-container-1*/
 .first-heading {
-    margin: 0 300px;
-    color: #fff;
-    font-size: 70px;
-    background-color: #999999;
-    padding: 30px;
-    text-align: center;
+  margin: 0 300px;
+  color: #fff;
+  font-size: 70px;
+  background-color: #999999;
+  padding: 30px;
+  text-align: center;
 
 }
 
 .grid-item-1-1,
 .grid-item-1-3 {
-    grid-column-start:1;
-    grid-column-end:2;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .grid-item-1-2,
 .grid-item-1-4 {
-    grid-column-start:2;
-    grid-column-end:3;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .grid-item-1-1,
 .grid-item-1-2 {
-    grid-row-start:1;
-    grid-row-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .grid-item-1-3,
 .grid-item-1-4 {
-    grid-row-start:2;
-    grid-row-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .grid-container-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 /* Center the texts in grid-container-1*/
 .grid-container-1-center {
-    text-align: center;
+  text-align: center;
 }
 
 .grid-item-1-1,
 .grid-item-1-4 {
-    background-color: #333333;
+  background-color: #333333;
 }
 
 .grid-item-1-2,
 .grid-item-1-3 {
-    background-color: #999999;
+  background-color: #999999;
 }
 
 .grid-item-1-1,
 .grid-item-1-2,
-.grid-item-1-3, 
+.grid-item-1-3,
 .grid-item-1-4 {
-    padding-top: 100px;
-    padding-bottom: 100px; 
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 
 .headings {
-    color: #fff;
-    font-size: 80px;
+  color: #fff;
+  font-size: 80px;
 }
 
 .texts {
-    color: #fff;
-    font-size: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+/*section 2*/
+.sect2 {
+  display: flex;
+  padding: auto 6vw;
+}
+
+.art1 {
+  padding: 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #ccc;
+}
+
+.art1:hover {
+  transform: scale(2) translate(y);
+  transition: all 0.4s;
+  position: relative;
+}
+
+.art1 h1 {
+  font-size: 30px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.art1 h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.art1 p {
+  margin-top: 20px;
+  line-height: 1.6em;
+}
+
+.grid2-1,
+.grid2-2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.grid2-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid2-2 {
+  background-color: rgb(90, 88, 88);
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.sect3 {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: 1fr;
 }
