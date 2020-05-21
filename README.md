@@ -25,7 +25,7 @@ This is an assigned collaborative project where we had to use Google Web Fonts a
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/chelmerrox/Project-5-Design-Teardown/project-draft/index.html)
 
 
 ## Getting Started
