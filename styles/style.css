@@ -249,3 +249,39 @@ nav input[type="text"] {
   font-weight: 700;
   padding: 20px 40px;
 }
+
+/* Section 8 container styles */
+.sect8 {
+  display: flex;
+  justify-content:flex-start;
+  margin-top: 60px;
+  padding-left: 30px;
+}
+
+.rotated-squares {
+  background-color: #333333;
+  width: 240px;
+  height: 200px;
+  transform: rotateZ(-10deg);
+  transform-style: preserve-3d;
+}
+
+.rotated-squares:hover {
+  transform: rotateZ(0deg);
+  transform-style: preserve-3d;
+}
+
+.sect8 .sect8-flex-item-2 {
+  margin-inline-start: 30px;
+}
+
+.sect8 h5 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-block-end: 10px;
+}
+
+.sect8 p {
+  font-size: 20px;
+  line-height: 30px;
+}
