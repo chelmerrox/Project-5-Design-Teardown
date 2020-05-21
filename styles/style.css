@@ -189,3 +189,31 @@ nav input[type="text"] {
 .sect4 {
   background-color: #3f3e3e;
 }
+
+.sect5{
+  height: 95vh;
+  background-color: rgb(92, 89, 89);
+  margin: 5vh 15vw 5vh 5vw;
+  border-radius: 6px;
+  padding: 40px;
+  text-align: center;
+}
+.sect5 .headings{
+  margin-top: 20%;
+}
+.sect5 .texts{
+  margin-top: 20px;
+  line-height: 1.4em;
+}
+.sect5 button{
+  margin: 20px auto;
+  height: 50px;
+  font-weight: 700;
+}
+.sect5 span{
+  color: #fff;
+  font-size: 16px
+}
+.sect5 a{
+  color: #fff;
+}
