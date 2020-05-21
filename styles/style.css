@@ -337,24 +337,51 @@ nav input[type="text"] {
   padding-bottom: 100px;
 }
 
-.sect11 small {
+.sect11 small,
+.sect12 small {
   font-size: 11px;
   line-height: 15.5px;
 }
 
-.sect11 h1 {
+.sect11 h1,
+.sect12 h1 {
  font-size: 30px;
  margin-top: 20px;
  margin-bottom: 10px;
 }
 
-.sect11 ul li {
+.sect11 ul li,
+.sect12 ul li {
   list-style: circle;
   margin-left: 28px;
 }
 
-.sect11 ul li a {
+.sect11 ul li a,
+.sect12 ul li a {
  color: rgb(21, 172, 241);    
  font-size: 25px;
  line-height: 35px;
 }
+
+/* Section 12 container styles */
+.sect12 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 60px;
+  padding-left: 110px;
+  padding-bottom: 230px;
+}
+
+.sect12-flex-item-2 {
+  margin-left: 40px;
+  background-color: #333333;
+  padding: 60px 10px 220px 10px;
+  text-align: center;
+}
+
+.sect12 button {
+  margin-block-start: 70px;
+  padding: 30px 55px;
+  font-size: 20px;
+}
+
