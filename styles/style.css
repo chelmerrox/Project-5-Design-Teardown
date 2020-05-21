@@ -298,6 +298,7 @@ nav input[type="text"] {
   line-height: 30px;
 }
 
+/* Section 9 container styles */
 .sect9{
   display: flex;
   flex-direction: column;
@@ -308,6 +309,7 @@ nav input[type="text"] {
   display: flex;
 }
 
+/* Section 10 container styles */
 .sect10{
   margin: 30px auto;
   background-color: #ccc;
@@ -330,7 +332,7 @@ nav input[type="text"] {
   font-size: 23px;
 }
 
-/* Section 11 container styles */
+/* Section 11 container styles; Shared styles with Section 12 container - flex item 1 */
 .sect11 {
   display: flex;
   justify-content: space-around;
@@ -385,6 +387,7 @@ nav input[type="text"] {
   font-size: 20px;
 }
 
+/* Footer container styles */
 footer{
   height: 100vh;
   width:100%;
