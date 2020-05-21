@@ -183,11 +183,6 @@ nav input[type="text"] {
   grid-template-rows: 1fr;
 }
 
-/* Styles for section 4 containers' items */
-.sect4 {
-  background-color: #3f3e3e;
-}
-
 /* Section 5 container styles */
 .sect5 {
   height: 95vh;
