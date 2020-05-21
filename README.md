@@ -8,36 +8,33 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5
+- CSS3
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## How To Use 🔧
 
-### Setup
+From your command line, first clone the project:
 
-### Install
+```bash
+# Clone this repository
+$ git clone https://github.com/chelmerrox/Project-5-Design-Teardown
 
-### Usage
+# Go into the repository
+$ cd Project-5-Design-Teardown
 
-### Run tests
+$ run live server
 
-### Deployment
-
-
+```
 
 ## Authors
 
@@ -47,17 +44,17 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 **Paul Ogolla**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/paulzay)
+- Twitter: [@twitterhandle](https://twitter.com/_paulzay_)
+- Linkedin: [linkedin](https://www.linkedin.com/in/paulogolla/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/chelmerrox/Project-5-Design-Teardown/issues).
 
 ## Show your support
 
@@ -65,9 +62,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Special thanks to Microverse and the Odin Project
 
 ## 📝 License
 
