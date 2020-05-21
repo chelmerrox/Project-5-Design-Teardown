@@ -253,7 +253,7 @@ nav input[type="text"] {
 /* Section 8 container styles */
 .sect8 {
   display: flex;
-  justify-content:flex-start;
+  justify-content: center;
   margin-top: 60px;
   padding-left: 30px;
 }
