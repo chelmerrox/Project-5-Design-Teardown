@@ -385,3 +385,48 @@ nav input[type="text"] {
   font-size: 20px;
 }
 
+footer{
+  height: 100vh;
+  width:100%;
+  background-color: gray;
+  padding: 30px;
+}
+.foot-top{
+  text-align: center;
+}
+.foot-top ul li{
+  display: inline-flex;
+  font-size: 20px;
+  padding: 15px;
+
+}
+.foot-top a{
+  color: #333333;
+}
+.foot-bottom{
+  text-align: center;
+  margin-top: 70px;
+}
+.foot-bottom p{
+  font-style: italic;
+}
+.foot-bottom h2{
+  margin-top: 15px;
+  line-height: 1.6em;
+}
+.foot-bottom a{
+  color: #333333;
+}
+.final-foot{
+  text-align: center;
+  margin-top: 20px;
+}
+.final-foot ul li{
+  display: inline-flex;
+  padding: 10px;
+ 
+}
+.final-foot a{
+  color: #333333;
+  font-size: 15px;
+}
