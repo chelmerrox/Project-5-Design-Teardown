@@ -144,13 +144,13 @@ nav input[type="text"] {
   position: relative;
 }
 
-.art1 h1 {
+.art1 h2 {
   font-size: 30px;
   margin-top: 20px;
   text-decoration: underline;
 }
 
-.art1 h2 {
+.art1 h3 {
   font-size: 20px;
   margin-top: 20px;
 }
@@ -321,7 +321,7 @@ nav input[type="text"] {
   padding: 6vh 6vw;
 }
 
-.sect10 h1 {
+.sect10 h2 {
   margin-top: 20px;
   font-size: 40px;
   font-weight: bold;
@@ -353,8 +353,8 @@ nav input[type="text"] {
   line-height: 15.5px;
 }
 
-.sect11 h1,
-.sect12 h1 {
+.sect11 h2,
+.sect12 h2 {
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 10px;
