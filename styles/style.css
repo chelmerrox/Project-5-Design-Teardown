@@ -260,8 +260,8 @@ nav input[type="text"] {
 
 .rotated-squares {
   background-color: #333333;
-  width: 240px;
-  height: 200px;
+  width: 220px;
+  height: 190px;
   transform: rotateZ(-10deg);
   transform-style: preserve-3d;
   transform-origin: left bottom;
