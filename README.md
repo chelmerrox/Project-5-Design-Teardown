@@ -1,15 +1,27 @@
 # Project 5 - Design Teardown
 
-> One paragraph statement about the project.
+This is an assigned collaborative project where we had to use Google Web Fonts and apply grey colored backgrounds to sections of the webpage in order to apply our knowledge on visual hierachies and design. We are cloning the 
+<a href="https://www.smashingmagazine.com/">Smashing Magazine website.</a>
 
 ## Preview of webpage
 
-Additional description about the project and its features.
+### Top of webpage
+
+![Web page preview](images/webpage_preview_1.PNG)
+
+### Middle of webpage
+
+![Web page preview](images/webpage_preview_2.PNG)
+
+### Bottom of webpage
+
+![Web page preview](images/webpage_preview_3.PNG)
 
 ## Built With
 
 - HTML5
 - CSS3
+- Google Web Fonts
 
 ## Live Demo
 
@@ -38,11 +50,11 @@ $ run live server
 
 ## Authors
 
-👤 **Author1**
+👤 **Losalini Rokocakau**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@chelmerrox](https://github.com/chelmerrox)
+- Twitter: [@chelmerrox](https://twitter.com/chelmerrox)
+- Linkedin: [Losalini Rokocakau](https://linkedin.com/losalini-rokocakau)
 
 👤 **Paul Ogolla**
 
