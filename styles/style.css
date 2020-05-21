@@ -217,3 +217,8 @@ nav input[type="text"] {
 .sect5 a{
   color: #fff;
 }
+.see {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 13px;
+}
