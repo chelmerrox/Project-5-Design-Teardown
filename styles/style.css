@@ -225,3 +225,27 @@ nav input[type="text"] {
   margin: 30px auto;
   font-size: 13px;
 }
+
+/* Section 7 container */
+.sect7 {
+  background-color: #333333;
+  text-align: center;
+  padding: 30px 95px 175px 95px;
+}
+
+.sect7 .headings {
+  margin-block-start: 40px;
+  margin-block-end: 40px;
+}
+
+.sect7 p {
+  margin-top: 20px;
+  line-height: 1.4em;
+}
+
+.sect7 button{
+  margin: 20px auto;
+  height: 50px;
+  font-weight: 700;
+  padding: 20px 40px;
+}
