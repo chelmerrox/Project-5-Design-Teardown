@@ -190,6 +190,7 @@ nav input[type="text"] {
   background-color: #3f3e3e;
 }
 
+/* Section 5 styles*/
 .sect5{
   height: 95vh;
   background-color: rgb(92, 89, 89);
@@ -217,6 +218,8 @@ nav input[type="text"] {
 .sect5 a{
   color: #fff;
 }
+
+/* Section 6 styles */
 .see {
   text-align: center;
   margin: 30px auto;
