@@ -329,3 +329,32 @@ nav input[type="text"] {
   font-weight: bold;
   font-size: 23px;
 }
+
+/* Section 11 container styles */
+.sect11 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.sect11 small {
+  font-size: 11px;
+  line-height: 15.5px;
+}
+
+.sect11 h1 {
+ font-size: 30px;
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+
+.sect11 ul li {
+  list-style: circle;
+  margin-left: 28px;
+}
+
+.sect11 ul li a {
+ color: rgb(21, 172, 241);    
+ font-size: 25px;
+ line-height: 35px;
+}
