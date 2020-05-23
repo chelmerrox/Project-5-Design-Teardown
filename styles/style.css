@@ -1,0 +1,455 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  background-color: grey;
+  border: 1px solid green;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 6vw;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: black;
+  line-height: 3.2em;
+  text-decoration: none;
+}
+
+/* Search bar */
+form {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 14px;
+}
+
+nav input[type="text"] {
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  padding-left: 20px;
+  outline: none;
+}
+
+/* Styles for Grid-container-1 */
+main {
+  position: relative;
+}
+
+.first-heading {
+  margin: 0 500px;
+  color: #fff;
+  font-size: 40px;
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  position: absolute;
+  left: 5%;
+}
+
+.grid-item-1-1,
+.grid-item-1-3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid-item-1-2,
+.grid-item-1-4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.grid-item-1-1,
+.grid-item-1-2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.grid-item-1-3,
+.grid-item-1-4 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+/* Center the texts in grid-container-1 */
+.grid-container-1-center {
+  text-align: center;
+}
+
+.grid-item-1-1,
+.grid-item-1-4 {
+  background-color: #333;
+}
+
+.grid-item-1-2,
+.grid-item-1-3 {
+  background-color: #666;
+}
+
+.grid-item-1-1,
+.grid-item-1-2,
+.grid-item-1-3,
+.grid-item-1-4 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.headings {
+  color: #fff;
+  font-size: 80px;
+}
+
+.texts {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* section 2 container and section 4 container layout */
+.sect2 {
+  display: flex;
+  padding: auto 6vw;
+}
+
+.art1 {
+  padding: 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #ccc;
+  width: 100%;
+  height: 100%;
+}
+
+.art1:hover {
+  transform: scale(2) translate(y);
+  transition: all 0.4s;
+  position: relative;
+}
+
+.art1 h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.art1 h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.art1 p {
+  margin-top: 20px;
+  line-height: 1.6em;
+}
+
+.grid2-1,
+.grid2-2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.grid2-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid2-2 {
+  background-color: rgb(90, 88, 88);
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.sect3 {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: 1fr;
+}
+
+/* Section 5 container styles */
+.sect5 {
+  height: 95vh;
+  background-color: rgb(92, 89, 89);
+  margin: 5vh 15vw 5vh 5vw;
+  border-radius: 6px;
+  padding: 40px;
+  text-align: center;
+}
+
+.sect5 .headings {
+  margin-top: 20%;
+}
+
+.sect5 .texts {
+  margin-top: 20px;
+  line-height: 1.4em;
+}
+
+.sect5 button {
+  margin: 20px auto;
+  height: 50px;
+  font-weight: 700;
+}
+
+.sect5 span {
+  color: #fff;
+  font-size: 16px;
+}
+
+.sect5 a {
+  color: #fff;
+}
+
+/* Section 6 container styles */
+.see {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 13px;
+}
+
+/* Section 7 container */
+.sect7 {
+  background-color: #333;
+  text-align: center;
+  padding: 30px 95px 175px 95px;
+}
+
+.sect7 .headings {
+  margin-block-start: 40px;
+  margin-block-end: 40px;
+}
+
+.sect7 p {
+  margin-top: 20px;
+  line-height: 1.4em;
+}
+
+.sect7 button {
+  margin: 20px auto;
+  height: 50px;
+  font-weight: 700;
+  padding: 20px 40px;
+}
+
+/* Section 8 container styles */
+.sect8 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  padding-left: 30px;
+}
+
+.rotated-squares {
+  background-color: #333;
+  border-radius: 6px;
+  width: 220px;
+  height: 190px;
+  transform: rotateZ(-10deg);
+  transform-style: preserve-3d;
+  transform-origin: left bottom;
+  box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
+}
+
+.small-sq {
+  width: 300px;
+  height: 100px;
+  border-radius: 6px;
+  background-color: #333;
+  transform: rotateZ(-10deg);
+  transform-style: preserve-3d;
+  transform-origin: left bottom;
+  box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
+}
+
+.rotated-squares:hover {
+  transform: rotateZ(0deg);
+  transform-style: preserve-3d;
+}
+
+.sect8 .sect8-flex-item-2 {
+  margin-inline-start: 30px;
+}
+
+.sect8 h5 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-block-end: 10px;
+}
+
+.sect8 p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Section 9 container styles */
+.sect9 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 6vw;
+}
+
+.sect9 .first,
+.second,
+.third {
+  display: flex;
+}
+
+/* Section 10 container styles */
+.sect10 {
+  margin: 30px auto;
+  background-color: #ccc;
+  padding: 6vh 6vw;
+}
+
+.sect10 h2 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sect10 p {
+  margin-top: 15px;
+  line-height: 1.6em;
+}
+
+.sect10 button {
+  margin-top: 20px;
+  height: 60px;
+  width: 350px;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+/* Section 11 container styles; Shared styles with Section 12 container - flex item 1 */
+.sect11 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.sect11 small,
+.sect12 small {
+  font-size: 11px;
+  line-height: 15.5px;
+}
+
+.sect11 h2,
+.sect12 h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sect11 ul li,
+.sect12 ul li {
+  list-style: circle;
+  margin-left: 28px;
+}
+
+/* Styles for footer container links */
+.foot-top a {
+  color: #333;
+}
+
+.foot-bottom a {
+  color: #333;
+}
+
+.final-foot a {
+  color: #333;
+  font-size: 15px;
+}
+
+.sect11 ul li a,
+.sect12 ul li a {
+  color: rgb(21, 172, 241);
+  font-size: 25px;
+  line-height: 35px;
+}
+
+/* Section 12 container styles */
+.sect12 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  padding-left: 110px;
+  padding-bottom: 230px;
+}
+
+.sect12-flex-item-2 {
+  margin-left: 40px;
+  background-color: #333;
+  padding: 60px 10px 220px 10px;
+  text-align: center;
+}
+
+.sect12 button {
+  margin-block-start: 70px;
+  padding: 30px 55px;
+  font-size: 20px;
+}
+
+/* Footer container styles */
+footer {
+  height: 100vh;
+  width: 100%;
+  background-color: gray;
+  padding: 30px;
+}
+
+.foot-top {
+  text-align: center;
+}
+
+.foot-top ul li {
+  display: inline-flex;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.foot-bottom {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.foot-bottom p {
+  font-style: italic;
+}
+
+.foot-bottom h2 {
+  margin-top: 15px;
+  line-height: 1.6em;
+}
+
+.final-foot {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.final-foot ul li {
+  display: inline-flex;
+  padding: 10px;
+}
