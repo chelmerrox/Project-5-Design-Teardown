@@ -58,9 +58,9 @@ $ run live server
 
 👤 **Paul Ogolla**
 
-- Github: [@githubhandle](https://github.com/paulzay)
-- Twitter: [@twitterhandle](https://twitter.com/_paulzay_)
-- Linkedin: [linkedin](https://www.linkedin.com/in/paulogolla/)
+- Github: [@paulzay](https://github.com/paulzay)
+- Twitter: [@_paulzay_](https://twitter.com/_paulzay_)
+- Linkedin: [Paul Ogolla](https://www.linkedin.com/in/paulogolla/)
 
 ## 🤝 Contributing
 
@@ -75,7 +75,9 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Special thanks to Microverse and the Odin Project
+- Our Stand-Up Teams
+- Our mentors
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](LICENCE) licensed.
